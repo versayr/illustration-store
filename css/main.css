@@ -161,9 +161,13 @@ section {
     margin: 0 auto;
     overflow: hidden;
 }
+.carousel img {
+    width: 500px;
+}
 .carouselWindow {
     height: 500px;
-    max-width: 100%;
+    min-width: 50%;
+    width: 500px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -201,10 +205,10 @@ section {
     border-right: 15px solid black; 
 }
 .imgMovedLeft {
-    margin-left: 350px;
+    margin-left: 500px;
 }
 .imgMovedRight {
-    margin-left: -350px;
+    margin-left: -500px;
 }
 #navburger {
     padding: 7px;
